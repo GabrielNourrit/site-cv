@@ -1,20 +1,29 @@
 @font-face {
- font-family: "SF Pro";
- src: url("./font/SF-Pro-Text-Regular.otf" )
+ font-family: "Tomica";
+ src: url("./font/Tomica-Regular.ttf" )
 }
 @font-face {
- font-family: "SF Pro";
- src: url("./font/SF-Pro-Text-Semibold.otf" )
+ font-family: "Tomica";
+ src: url("./font/Tomica-Bold.ttf" )
  font-weight: 600;
 }
 @font-face {
- font-family: "SF Pro";
- src: url("./font/SF-Pro-Text-Medium.otf" )
- font-weight: 400;
+ font-family: "Adobe-Caslon-Pro";
+ src: url("./font/Adobe-Caslon-Pro.ttf" )
+}
+@font-face {
+ font-family: "Adobe-Caslon-Pro";
+ src: url("./font/Adobe-Caslon-Pro-Bold.ttf" )
+ font-weight: 600;
+}
+@font-face {
+ font-family: "Adobe-Caslon-Pro";
+ src: url("./font/Adobe-Caslon-Pro-Italic.ttf" )
+ font-style:italic;
 }
 
 body{
-  font-family: "Open Sans", "Segoe UI";
+  font-family: "Adobe-Caslon-Pro";
   margin: 0px;
   color:#0c0c0c;
 }
@@ -22,6 +31,7 @@ body{
   background-color: black;
 }
 #navbar{
+font-family: "Tomica";
   z-index: 20;
   position:absolute;
   width:100%;
@@ -34,15 +44,15 @@ body{
   cursor:default;
 }
 #navbrand{
-font-family: "SF Pro", "Open Sans", "Segoe UI";
 margin-left: 7.7vw;
 font-weight:400;
 font-size: 20px;
+letter-spacing: 2px;
 }
 #languages{
   display: inline-block;
   margin-right: 5.8vw;
-  font-size: 17px;
+  font-size: 16px;
 }
 .language:hover{
 color:#C39C2D;
@@ -50,7 +60,6 @@ cursor:pointer;
 }
 .active{
 color:#C39C2D;
-font-weight: 600;
 }
 .l-bar-s{
   margin-left: 3px;
@@ -86,6 +95,7 @@ text-align: center;
 font-weight:bold;
 font-size: 65px;
 margin-bottom: 1.5vh !important;
+  font-family: "Tomica";
 }
 
 h2{
@@ -95,7 +105,7 @@ margin: 0 3vw;
 font-weight:400;
 font-size: 16px;
 margin-bottom: 3vh !important;
-  font-family: "SF Pro", "Open Sans", "Segoe UI";
+  font-family: "Tomica";
 
 }
 
@@ -104,9 +114,8 @@ font-weight: 600;
 }
 
 
-#profil-picture-frame-right-side{
+#profil-picture-right-side{
   display:none;
-  margin-top:1.5vh;
 }
 
 
@@ -181,12 +190,12 @@ text-align: justify;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 92%;
-  font-family: "SF Pro", "Open Sans", "Segoe UI";
+  width: 88%;
+  font-family: "Tomica";
   color: #fff;
   background-color: #0c0c0c;
   border: none;
-  height: 9vh;
+  height: 3em;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;

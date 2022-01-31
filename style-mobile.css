@@ -40,17 +40,11 @@ color:#0c0c0c;
 
 #profil-picture-right-side{
 	display: inline-block;
-	width: 100%;
-	transform: translateY(-19%);
-
-}
-
-#profil-picture-frame-right-side{
-	display: inline-block;
+  	margin-top:1.5vh;
 	width: 95%;
-	height:50vh;
-	overflow: hidden; 
+	border-radius:2px;
 }
+
 
 .hr-networks{
 	margin-bottom: 1.1vh!important;
@@ -71,10 +65,11 @@ color:rgba(255,255,255,0.38);
 	justify-content: center;
 }
 	#navbar{
-		justify-content: flex-end;
+		justify-content: space-between;
 	}
 	#navbrand{
-		display:none;
+		letter-spacing: inherit;
+		font-size: inherit;
 	}
 	#languages{
 		font-size: 14px;
@@ -106,7 +101,6 @@ font-size: 12px;
 font-size: 14px;
 }
 #contact{
-  height: 7vh;
   font-size: 14px;
 }
 .copyright{
