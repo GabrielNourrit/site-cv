@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gabriel Nourrit : développeur, créateur et entrepreneur dans le domaine des nouvelles technologies.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gabriel Nourrit</title>
+    <link rel="icon" href="#">
+
+    <!-- [START] import css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- [END] import css -->
+</head>
+
+<body>
+
+    <div id="navbar">
+        <span id="navbrand">Gabriel Nourrit</span>
+
+        <div id="nav">
+            <div id="LANDING_PAGE" onclick="loadPage('LANDING_PAGE')" class="nav-link nav-link-active">LANDING PAGE</div>
+            <div class="separator-nav-links">•</div>
+            <div id="BLOG" onclick="loadPage('BLOG')" class="nav-link">BLOG</div>
+        </div>
+
+
+        <div id="languages">
+            <span id="FR" onclick="changeLanguage('FR')" class="language active">FR</span><span class="l-bar-s">|</span>
+            <span id="EN" onclick="changeLanguage('EN')" class="language">EN</span><span class="l-bar-s">|</span>
+            <span id="IT" onclick="changeLanguage('IT')" class="language">IT</span>
+        </div>
+    </div>
+
+    <div id="container" class="container-blog">
+            <h1>Gabriel Nourrit</h1>
+
+            <div id="blog-nav">
+                <div class="blog-nav-link blog-nav-link-active">développement</div>
+            </div>
+            
+            <p class="copyright blog-copyright">Copyright © 2021 website designed and developed by NOURRIT Gabriel</p>
+    </div>
+
+        <!-- import js -->
+        <script src="node_modules/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="anime.js"></script>
+    </body>
+</div>
+</html>
