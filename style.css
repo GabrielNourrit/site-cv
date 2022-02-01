@@ -115,6 +115,40 @@ justify-content: space-between;
   text-decoration: underline;
 
 }
+#blog-articles-area{
+  width:90vw;
+  margin: 20px auto 0px auto;
+}
+.article{
+  width:calc(25vw - 5px);
+  user-select: none;
+  cursor:pointer;
+}
+.article:hover{
+  transform: scale(0.95);
+}
+.article-category{
+  text-transform: uppercase;
+  font-family: "Tomica";
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.article-date{
+  font-style:italic;
+  font-size:11px;
+  margin-left:20px;
+}
+.article-title{
+  font-size:20px;
+  font-family: "Tomica";
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.article-resume{
+  text-align:justify;
+  font-size:14px;
+}
 
 #left-side{
   height:calc(100vh - 4px);
