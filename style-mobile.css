@@ -22,8 +22,11 @@ color:#0c0c0c;
 
 #container{
 	height:auto;
-	min-height:100vh;
+	min-height:calc(100vh - 8vh);
 	display:block;
+}
+.article-full-title{
+  font-size:28px!important;
 }
 #left-side{
 	display: none;
