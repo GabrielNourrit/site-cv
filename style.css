@@ -72,6 +72,14 @@ color:#C39C2D;
   margin-right: 5.8vw;
   font-size: 16px;
 }
+.languages-hide{
+  opacity:0;
+  cursor: default;
+  user-select: none;
+}
+.languages-hide *:hover{
+  cursor: default!important;
+}
 .language:hover{
 color:#C39C2D;
 cursor:pointer;

@@ -48,11 +48,13 @@ function loadPage(pageName){
   $("#container").removeClass("container-blog");
   switch(pageName){
     case "LANDING_PAGE":
+      $("#languages").removeClass("languages-hide");
       colorLanguage("FR");
       $("#container").html(HTML_LANDINGPAGE);
       createSmoothScrollBar();
     break;
     case "BLOG":
+      $("#languages").addClass("languages-hide");
       $("#container").addClass("container-blog");
       $("#container").html(HTML_BLOG);
     break;
