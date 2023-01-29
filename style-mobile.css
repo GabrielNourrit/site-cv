@@ -1,3 +1,7 @@
-@media (max-width: 1236px){
-	
+@media ((max-width: 1070px) and (max-height: 600px)) or (max-width: 65vh){
+
+	#dt-version{
+		display: none;
+	}
+
 }

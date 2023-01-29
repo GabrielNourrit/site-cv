@@ -31,19 +31,21 @@ body{
   display: flex;
 }
 
+
+/**LEFT SIDE**/
+
 #dt-left{
   width: 40.1%;
   height: 100vh;
   min-width: 63.32vh;
-  min-height: 50vw;
+  min-height: 49vw;
 }
 
 #dt-bg-secondary{
   background-color: #6D5342;
-  min-width: 63.32vh;
   min-height: 70vh;
   height: 35vw;
-  width:40.1%;
+  width:100%;
   z-index: 0;
   position: absolute;
 }
@@ -71,18 +73,86 @@ body{
   font-family: "Tomica";
   font-weight: 400;
   color: white;
-  font-size: max(4.2vw, 6.8vh);
-  margin: 59% max(17.454px, 2vw);
+  font-size: 4.4vw;
+  margin: 59% 2vw;
 }
 
+/* plus long que large !) */
+@media (min-height: 63.3vw){
+ #dt-name{
+ font-size: 7vh;
+ color: blue;
+ }
+}
+
+
+/**RIGHT SIDE**/
+
 #dt-right{
-  width: 59.9%;
+  position: relative;
+  width: 52%;
   height: 100vh;
+  color: white;
 }
 
 #dt-content{
   background-color: black;
-  height: 85vh;
+  height: 82vh;
+  min-height: 42vw;
+  min-width: 713px;
+  font-family: "Adobe-Caslon-Pro";
+}
+
+
+
+#dt-languages{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  padding-top: 3%;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#dt-languages-column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.dt-languages-selected{
+  margin-bottom: 1%;
+  font-size: 22px;
+  color: #C39C2D;
+}
+
+#dt-currently-doing{
+  display: flex;
+  justify-content: flex-end;
+  font-style: italic;
+  font-size: max(14px,0.65vw);
+  margin-right: 13%;
+  margin-top: 5.5%;
+}
+
+#dt-subtitle{
+  margin-left: 6.5%;
+  font-weight: normal;
+  font-size: max(4vw, 50px);
+  margin-top: 7%;
+    line-height: max(6vw, 10vh);
+    letter-spacing: 0.1vw;
+    color:white;
+}
+
+
+
+#dt-subtitle strong{
+  font-weight: bold;
+}
+
+#dt-footer{
+
 }
 
 
