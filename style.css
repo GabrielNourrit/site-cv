@@ -23,346 +23,72 @@
 }
 
 body{
-  font-family: "Adobe-Caslon-Pro";
-  margin: 0px;
-  color:#0c0c0c;
+  margin:0;
 }
-.bg-b{
-  background-color: black;
-}
-#navbar{
-  top:0;
-  font-family: "Tomica";
-  z-index: 20;
-  position:absolute;
-  width:100%;
-  height:5vh;
-  background-color: #0c0c0c;
-  color:#fff;
+
+
+#dt-version{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor:default;
-}
-#navbrand{
-margin-left: 7.7vw;
-font-weight:400;
-font-size: 20px;
-letter-spacing: 2px;
-}
-#nav *{
-  display: inline-block;
-  user-select: none;
-}
-.nav-link{
-  cursor:pointer;
-}
-.nav-link:hover{
-color:#C39C2D;
-}
-.separator-nav-links{
-  margin: 0px 12px;
-}
-.nav-link-active{
-color:#C39C2D;
-
-}
-#languages{
-  display: inline-block;
-  margin-right: 5.8vw;
-  font-size: 16px;
-}
-.languages-hide{
-  opacity:0;
-  cursor: default;
-  user-select: none;
-}
-.languages-hide *:hover{
-  cursor: default!important;
-}
-.language:hover{
-color:#C39C2D;
-cursor:pointer;
-}
-.active{
-color:#C39C2D;
-}
-.l-bar-s{
-  margin-left: 3px;
 }
 
-#container{
-width:100%;
-height:calc(100vh - 12vh);
-display:flex;
-justify-content: space-between;
+#dt-left{
+  width: 40.1%;
+  height: 100vh;
+  min-width: 63.32vh;
+  min-height: 50vw;
 }
 
-.container-blog{
-  display: block !important;
-}
-
-#blog-nav{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid #707070 1px;
-  width:90vw;
-  margin: 0 auto;
-  height: 3em;
-}
-.blog-nav-link{
-  font-family: "Tomica";
-  text-transform: uppercase;
-  user-select: none;
-  cursor:pointer;
-}
-.blog-nav-link-active{
-  text-underline-offset: 4px;
-  font-weight: 600;
-  text-decoration: underline;
-
-}
-#blog-articles-area{
-  width:90vw;
-  margin: 20px auto 0px auto;
-}
-.article{
-  width:calc(25vw - 5px);
-  user-select: none;
-  cursor:pointer;
-}
-.article:hover{
-  transform: scale(0.95);
-}
-.article-category{
-  text-transform: uppercase;
-  font-family: "Tomica";
-  letter-spacing: 2px;
-  font-size: 12px;
-}
-.article-date{
-  font-style:italic;
-  font-size:11px;
-  margin-left:20px;
-}
-.article-title{
-  font-size:20px;
-  font-family: "Tomica";
-  font-weight: 600;
-  text-transform: uppercase;
-  margin: 10px 0px;
-}
-.article-resume{
-  text-align:justify;
-  font-size:14px;
-}
-
-/*** START ***
-ARTICLE FULL
-*************/
-.article-full{
-  width: 60vw;
-  margin: 0 auto;
-  text-align: center;
-}
-.article-full-title{
-  text-transform: uppercase;
-  margin-top:9vh;
-  margin-bottom: 0px!important;
-  font-size:49px!important;
-}
-.article-full .article-subtitle{
-  margin-bottom: 20px;
-}
-.article-full .videoContainer {
-  position: relative;
-  height: 0;
-  padding-top: 56.25%;
-  width:100%;
-}
-.article-full .videoContainer iframe {
+#dt-bg-secondary{
+  background-color: #6D5342;
+  min-width: 63.32vh;
+  min-height: 70vh;
+  height: 35vw;
+  width:40.1%;
+  z-index: 0;
   position: absolute;
-  top: 0; left: 0;
-  border: 0;
+}
+
+#dt-profil-picture{
   width: 100%;
-  height: 100%;
-}
-.article-full-resume{
-  display: inline-block;
-  margin-bottom:30px;
-}
-.article-full-text {
-  text-align: justify;
-  margin-top: 40px;
-  line-height: 2;
-}
-.article-full-text h3{
-  font-family:"Tomica";
-  font-weight:400;
-  text-align: left;
-  margin-bottom: 30px;
-}
-#signature{
-  margin: 50px 0;
-  transform: scale(70%);
-}
-
-
-/*** END ***/
-
-#left-side{
-  height:calc(100vh - 4px);
-  display:inline-block;
-}
-#scroll{
-  height:100vh;
-  overflow-y: hidden;
-}
-#right-side{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  width:100%;
-  overflow-y: hidden;
-}
-
-
-h1{
-  margin-top: 12vh;
-text-align: center;
-font-weight:bold;
-font-size: 65px;
-margin-bottom: 1.5vh !important;
-  font-family: "Tomica";
-}
-
-h2{
-  line-height: 2;
-  text-align: center;
-margin: 0 3vw;
-font-weight:400;
-font-size: 16px;
-margin-bottom: 3vh !important;
-  font-family: "Tomica";
-
-}
-
-strong{
-font-weight: 600;
-}
-
-
-#profil-picture-right-side{
-  display:none;
-}
-
-
-.hr-networks{
-  height:2px;
-  border-radius:5px;
-  background-color: #0c0c0c;
+  transform: translateY(-14%);
   position: absolute;
-  width: 100%;
 }
 
-.networks{
-  height:3.8vh;
-  width:92%;
+#dt-profil-picture-container{
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-margin-bottom: 2.5vh !important;
-user-select: none;
+  z-index: 1;
+  width: 92.5%;
+  min-height: 89vh;
+  margin: 4.5vh auto auto 4%;
+  height: 44.453vw;
+/*  max-height: max(57vw, 89vh);*/
+  overflow: hidden;
+  background-color: #08171e;
 }
-.networks-items{
+
+#dt-name{
   position: relative;
-  background-color: #fff;
-  padding: 0 15px;
-  z-index: 10;
-}
-
-.networks-items a { color: #0c0c0c; }
-.networks-items a:visited { text-decoration: none; color:#0c0c0c; }
-.networks-items *:hover{
-  text-decoration: none;
-  color:#C39C2D;
-  cursor: pointer;
-}
-.networks-items a:focus { text-decoration: none; }
-.networks-items a:hover, a:active { text-decoration: none; }
-
-.s-n{
-  width:18px;
-  display:inline-block;
-}
-
-.description{
-margin: 0 3vw;
-font-size:15px;
-line-height: 2.5;
-margin-bottom: 5vh !important;
-text-align: justify;
-}
-
-.CV{
-  display: inline-block;
-}
-
-.CV a{
-  color:#C39C2D;
-  font-size:16px;
-  user-select: none;
-}
-
-.CV a:hover{
-  color:#0c0c0c;
-}
-
-.fa-link{
-  font-size:xx-small;
-  margin-right:2px !important;
-}
-
-#contact{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 88%;
   font-family: "Tomica";
-  color: #fff;
-  background-color: #0c0c0c;
-  border: none;
-  height: 3em;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 17px;
-  margin-bottom: 4vh !important;
-  cursor:pointer;
-  user-select: none;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  border-radius: 6px;
-  text-decoration: none;
+  color: white;
+  font-size: max(4.2vw, 6.8vh);
+  margin: 59% max(17.454px, 2vw);
 }
 
-#contact:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    transform: scale(0.95);
+#dt-right{
+  width: 59.9%;
+  height: 100vh;
 }
+
+#dt-content{
+  background-color: black;
+  height: 85vh;
+}
+
 
 .copyright{
 
 font-size: 11px;
 font-family: "Tomica";
 margin-bottom:5%!important;
-}
-
-
-
-.blog-copyright{
-  text-align: center;
-  padding-bottom: 20px;
-  color: rgba(0,0,0,0.36);
 }
