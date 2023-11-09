@@ -152,7 +152,17 @@ body{
 }
 
 #dt-footer{
+height: calc(100vh - 82vh);
+background-color: red;
+}
 
+#dt-paper-plane{
+  height: 16px;
+  transform: translateY(2px);
+}
+
+#dt-signature{
+  height: 30vh;
 }
 
 
