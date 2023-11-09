@@ -23,152 +23,96 @@
 }
 
 body{
-  margin:0;
+    margin:0;
 }
 
+
+#dt-wrap{
+  width:720px;
+  display: flex;
+}
 
 #dt-version{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height:95vh;
+}
+
+#m-version{
+  display: none;
 }
 
 
-/**LEFT SIDE**/
+#dt-call{
+  width:30px;
+  border: dashed black 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding: 5px 0px;
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
 
+#dt-call a:link{
+  color:black;
+}
+#dt-call a:visited{
+  color:black;
+}
+#dt-call a:hover{
+  color:black;
+}
+#dt-call a:active{
+  color:black;
+}
+
+#dt-call-picture{
+  margin-bottom: 7px;
+}
 #dt-left{
-  width: 40.1%;
-  height: 100vh;
-  min-width: 63.32vh;
-  min-height: 49vw;
-}
-
-#dt-bg-secondary{
-  background-color: #6D5342;
-  min-height: 70vh;
-  height: 35vw;
-  width:100%;
-  z-index: 0;
-  position: absolute;
-}
-
-#dt-profil-picture{
-  width: 100%;
-  transform: translateY(-14%);
-  position: absolute;
-}
-
-#dt-profil-picture-container{
-  position: relative;
-  z-index: 1;
-  width: 92.5%;
-  min-height: 89vh;
-  margin: 4.5vh auto auto 4%;
-  height: 44.453vw;
-/*  max-height: max(57vw, 89vh);*/
-  overflow: hidden;
-  background-color: #08171e;
+  width:519px;
+  display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 #dt-name{
-  position: relative;
   font-family: "Tomica";
-  font-weight: 400;
-  color: white;
-  font-size: 4.4vw;
-  margin: 59% 2vw;
+  font-weight: 600;
+  font-size: 59px;
+  margin:0px
 }
-
-/* plus long que large !) */
-@media (min-height: 63.3vw){
- #dt-name{
- font-size: 7vh;
- color: blue;
- }
-}
-
-
-/**RIGHT SIDE**/
 
 #dt-right{
-  position: relative;
-  width: 52%;
-  height: 100vh;
-  color: white;
+  width:220px;
 }
 
-#dt-content{
-  background-color: black;
-  height: 82vh;
-  min-height: 42vw;
-  min-width: 713px;
-  font-family: "Adobe-Caslon-Pro";
+#dt-credits{
+  background-image: url(img/signature.svg);
+width: 130px;
+height: 65px;
+background-size: cover;
+display:flex;
+font-family: "Tomica";
+color: rgba(0,0,0,0.46);
+font-size:14px;
 }
 
-
-
-#dt-languages{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 5%;
-  padding-top: 3%;
-  font-family: "Open Sans";
-  font-weight: bold;
-  font-size: 14px;
-}
-
-#dt-languages-column-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.dt-languages-selected{
-  margin-bottom: 1%;
-  font-size: 22px;
-  color: #C39C2D;
+#dt-copyright{
+   margin-bottom: 0px;
+   margin-top: auto;
 }
 
 #dt-currently-doing{
-  display: flex;
-  justify-content: flex-end;
   font-style: italic;
-  font-size: max(14px,0.65vw);
-  margin-right: 13%;
-  margin-top: 5.5%;
+  font-size: 17px;
+  letter-spacing: -1px;
 }
 
-#dt-subtitle{
-  margin-left: 6.5%;
-  font-weight: normal;
-  font-size: max(4vw, 50px);
-  margin-top: 7%;
-    line-height: max(6vw, 10vh);
-    letter-spacing: 0.1vw;
-    color:white;
-}
-
-
-
-#dt-subtitle strong{
+.b{
   font-weight: bold;
-}
-
-#dt-footer{
-height: calc(100vh - 82vh);
-background-color: red;
-}
-
-#dt-paper-plane{
-  height: 16px;
-  transform: translateY(2px);
-}
-
-#dt-signature{
-  height: 30vh;
-}
-
-
-.copyright{
-
-font-size: 11px;
-font-family: "Tomica";
-margin-bottom:5%!important;
 }
