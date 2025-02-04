@@ -1,0 +1,85 @@
+
+#projets-sous-menu{
+  justify-content:flex-start;
+  margin-bottom: 45px;
+}
+
+#projets-sous-menu>*{
+  color:white;
+  font-size:20px;
+  background-color: rgba(0,0,0,0);
+  border-left-width: 0;
+  border-width: 0;
+  cursor: pointer;
+  padding: 0;
+  margin-right:30px;
+}
+
+.projets-colonne-left{
+  margin-right: 20px;
+}
+
+.colonne{
+  flex-direction: column;
+}
+
+.projets-tuile{
+  display: inline-block;
+  width: 260px;
+  background-color: #292C34;
+  border-radius: 10px;
+  padding: 24px 22px;
+}
+
+.projets-tuile:hover{
+  background-color: rgba(89, 116, 255, 0.14);
+  cursor: pointer;
+  user-select: none;
+}
+
+.projets-ligne1{
+  font-size: 17px;
+  margin-bottom:15px
+}
+
+.projets-ligne2{
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom:15px;
+  opacity: 73%;
+}
+
+.projets-ligne3{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projets-technologies *{
+  display: inline-block;
+}
+
+.projets-ligne3 * {
+  display: inline-block;
+}
+
+.puce{
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.techno{
+  font-weight: 100;
+  font-size: 14px;
+  display: inline-block;
+  opacity: 73%
+}
+
+.date{
+  font-size: 13px;
+  font-weight: normal;
+  opacity: 73%;
+  margin-top: 1.5;
+}

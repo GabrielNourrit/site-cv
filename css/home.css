@@ -1,0 +1,48 @@
+
+#home-wrap{
+height: 100vh;
+}
+
+#home-left{
+  height:100vh;
+  flex-direction: column
+}
+#home-up{
+  background-color:#11141d;
+  height:50vh;
+  justify-content: center;
+}
+h1{
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 41px;
+  width:66%;
+  margin-top:6vh
+}
+#home-right{
+  height: 100vh;
+}
+#home-img{
+  height:100%
+}
+#home-down{
+  background-color: grey;
+  height:50vh;
+  flex-direction: column;
+  justify-content: end;
+
+  align-items: center;
+}
+#home-more-wrap{
+  width: 66%;
+  margin-bottom: 6vh;
+}
+#home-more{
+  font-size: 32px;
+  color:white;
+  background-color:rgba(0, 0, 0, 0);
+  font-weight: "regular";
+  border-width: 0;
+  border-left-width : 0;
+  cursor: pointer;
+}

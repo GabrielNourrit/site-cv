@@ -1,0 +1,37 @@
+
+#timeline-timeline{
+  display: inline-block;
+}
+
+.timeline-ligne{
+  margin-top: 5%;
+}
+
+.timeline-date{
+  font-size: 60px;
+
+  margin-right: 100px
+ }
+
+ .timeline-date2{
+  font-size: 60px;
+  margin-left: 100px
+ }
+
+ .timeline-description{
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .timeline-classe{
+   font-size: 34px;
+   font-weight: 600;
+ }
+
+ .timeline-diplome{
+  font-size: 24px;
+  font-weight: 300
+ }
+.semi-gras{
+  font-weight: 500;
+}

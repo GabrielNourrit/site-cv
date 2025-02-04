@@ -1,0 +1,47 @@
+#dev-wrap{
+  background-color:#11141d;
+  font-family: "open sans";
+  color:white;
+  margin-left:37px;
+}
+
+#dev-title{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  position: fixed;
+  font-size: 47px;
+  font-family: "open sans";
+  margin: 1% 0% ;
+  font-weight:normal;
+  margin-left: -2vh;
+  margin-top: 8vh;
+}
+
+
+#dev-ligne1{
+  font-size: 39px;
+  font-family: "open sans";
+  font-weight: bold;
+}
+
+#dev-ligne2{
+  font-size: 28px;
+  font-family: "open sans";
+margin-top: 5px;
+}
+
+#dev-developpement{
+  font-size: 20px;
+  font-family: "open sans";
+  margin-left: 144px;
+  margin-top: 83px
+}
+
+#dev-signature{
+  margin:0;
+  height:150px;
+  position:fixed;
+  right:0;
+  bottom: 2vh;
+}
