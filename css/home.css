@@ -1,4 +1,21 @@
 
+:root {
+  color-scheme: light dark;
+  --primary-color: light-dark(#333, #fafafa);
+  --primary-background: light-dark(#e4e4e4, #121212);
+  --highlight-color: light-dark(hotpink, lime);
+
+  &:has(input[name="color-scheme"][value="light dark"]:checked) {
+    color-scheme: light dark;
+  }
+  &:has(input[name="color-scheme"][value="light"]:checked) {
+    color-scheme: light;
+  }
+  &:has(input[name="color-scheme"][value="dark"]:checked) {
+    color-scheme: dark;
+  }
+}
+
 #particles-js{
   width: 100%;
   height: 100%;
@@ -15,19 +32,42 @@ height: 100vh;
 #home-left{
   height:100vh;
   flex-direction: column;
+  position: relative;
+  width: calc(100vw - (100vh * (409.43 / 683)));
+}
+
+#home-left-overlay{
+  position: absolute;
+  z-index: 10;
+  width: calc(100vw - (100vh * (409.43 / 683)));
+  height: 100vh;
+  align-items: center;
+}
+#home-left-overlay-droite{
+flex-direction: column;
+justify-content: space-between;
+height:100vh;
+}
+#home-left-overlay-gauche{
+display: inline-block;
+width: 4.5px;
+height: 90vh;
+margin-left: 8vw;
+background-color: white;
+border-radius: 7px;
 }
 
 #home-up{
   background-color:#11141d;
   height:50vh;
-  justify-content: center;
 }
 h1{
   color:#ffffff;
   font-weight: bold;
-  font-size: 41px;
-  width:60%;
-  margin-top:6vh
+  margin-top:6vh;
+  font-size: 2.3em;
+  margin-left: 4vw;
+  width: 450px;
 }
 #home-right{
   height: 100vh;
@@ -51,8 +91,9 @@ h1{
   font-size: 32px;
   color:white;
   background-color:rgba(0, 0, 0, 0);
-  font-weight: "regular";
+  font-weight: 400;
   border-width: 0;
   border-left-width : 0;
   cursor: pointer;
+  margin-left: calc(4vw - 15px);
 }

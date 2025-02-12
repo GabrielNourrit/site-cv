@@ -6,12 +6,12 @@ var titles = {
 };
 
 
-
+console.log("hello");
 
 $(document).on( 'scroll', function(event){
 
    	$("#title").text(
-   		titles[Math.floor(document.body.scrollTop/window.innerHeight)]
+   		titles[Math.floor(document.documentElement.scrollTop/window.innerHeight)]
    		);
 
 });
